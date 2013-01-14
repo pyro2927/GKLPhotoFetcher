@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GKLPhotoFetcher.h"
 
-@interface GKLViewController : UIViewController
-
+@interface GKLViewController : UIViewController<GKLPhotoFetcherDelegate>{
+    IBOutlet UIImageView *imageView;
+}
+-(IBAction)show:(id)sender;
 @end

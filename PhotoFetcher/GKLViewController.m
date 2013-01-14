@@ -26,4 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)show:(id)sender{
+    [GKLPhotoFetcher fetchPhotoWithDelegate:self andNavigationController:self.navigationController];
+}
+
+- (void)photoFetcher:(id)fetcher returnedImage:(UIImage*)image{
+    [imageView setImage:image];
+}
+
 @end

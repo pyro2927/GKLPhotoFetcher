@@ -18,6 +18,7 @@
 		D8ACF2E616A4740C00C56374 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8ACF2E516A4740C00C56374 /* Default-568h@2x.png */; };
 		D8ACF2E916A4740C00C56374 /* GKLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ACF2E816A4740C00C56374 /* GKLViewController.m */; };
 		D8ACF2EC16A4740C00C56374 /* GKLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8ACF2EA16A4740C00C56374 /* GKLViewController.xib */; };
+		D8ACF2F416A4750F00C56374 /* GKLPhotoFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ACF2F316A4750F00C56374 /* GKLPhotoFetcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		D8ACF2E716A4740C00C56374 /* GKLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKLViewController.h; sourceTree = "<group>"; };
 		D8ACF2E816A4740C00C56374 /* GKLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKLViewController.m; sourceTree = "<group>"; };
 		D8ACF2EB16A4740C00C56374 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GKLViewController.xib; sourceTree = "<group>"; };
+		D8ACF2F216A4750F00C56374 /* GKLPhotoFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKLPhotoFetcher.h; sourceTree = "<group>"; };
+		D8ACF2F316A4750F00C56374 /* GKLPhotoFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKLPhotoFetcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				D8ACF2E816A4740C00C56374 /* GKLViewController.m */,
 				D8ACF2EA16A4740C00C56374 /* GKLViewController.xib */,
 				D8ACF2D616A4740C00C56374 /* Supporting Files */,
+				D8ACF2F216A4750F00C56374 /* GKLPhotoFetcher.h */,
+				D8ACF2F316A4750F00C56374 /* GKLPhotoFetcher.m */,
 			);
 			path = PhotoFetcher;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				D8ACF2DC16A4740C00C56374 /* main.m in Sources */,
 				D8ACF2E016A4740C00C56374 /* GKLAppDelegate.m in Sources */,
 				D8ACF2E916A4740C00C56374 /* GKLViewController.m in Sources */,
+				D8ACF2F416A4750F00C56374 /* GKLPhotoFetcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
