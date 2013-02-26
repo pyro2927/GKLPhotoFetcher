@@ -39,6 +39,7 @@
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
     [picker setSourceType:sourceType];
     [picker setDelegate:self];
+    [picker setAllowsEditing:allowsEditing];
     [photoNavigationController presentViewController:picker animated:YES completion:nil];
 }
 
