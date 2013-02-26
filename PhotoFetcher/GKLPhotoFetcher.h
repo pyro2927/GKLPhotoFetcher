@@ -24,5 +24,6 @@
 
 + (id)sharedPhotoFetcher;
 + (void)fetchPhotoWithDelegate:(id)delegate andNavigationController:(UINavigationController*)nav;
+-(void)fetchPhoto;
 
 @end
